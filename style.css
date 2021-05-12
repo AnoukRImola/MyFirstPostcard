@@ -1,4 +1,8 @@
 
-h1{
-    display: inline-block;
+
+.contenedor{
+    background: rgb(11, 83, 192);
+    width: 800px;
+    height: 800px;
 }
+
