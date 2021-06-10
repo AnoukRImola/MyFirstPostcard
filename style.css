@@ -1,30 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 html{
-    background-color: black;
+   background-color: black;
+   margin: 0;
+   padding: 0;
+   font-family: 'Handlee', cursive;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
 }
 
 .contenedor{
-    width: 600px;
-    height: 400px;
-    margin: auto;
-    border: 5px solid black;
-    margin-top: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 31%;
+    height: 41vh;
     background-color: white;
 }
 
-h1{
-    display: inline;
-    padding: 10px 50px 10px 10px;
+.nombre{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    flex: 1 1 30%;
 }
 
-img{
-    display: block;
+.nombre h1{
+    padding-top: 1rem;
+    margin: 1rem;
 }
 
-p{
-    display: inline;
-    padding-left: 30px;
+.nombre img{
+    height: 8vh;
+    margin: 0.7rem;
 }
 
-input{
-    display: inline;
+.texto{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 40%;
+}
+
+.texto p{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0 16px 16px;
+}
+
+.form{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+.form input{
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 5px 8px 5px 5px;  
+}
+
+.form input[placeholder]{
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.boton{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 30%;
+}
+
+.boton button{
+    background-color: rgb(204, 200, 200);
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+    height: 2rem;
+    margin-bottom: 2rem;
 }
